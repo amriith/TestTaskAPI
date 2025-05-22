@@ -8,7 +8,7 @@ class TestTaskAPI(unittest.TestCase):
         self.app.testing = True
 
     def test_create_task(self):
-        """Test creating a new task"""
+        """Test creating a new task 1 for Sit707"""
         response = self.app.post('/tasks',
                                data=json.dumps({
                                    'title': 'Test Task',
